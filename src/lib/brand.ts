@@ -21,7 +21,7 @@ export const BRAND = {
 
 export const WORDBITX = {
   name: "WordbitX",
-  url: "https://www.wordbitxtech.com/",
+  url: "https://wordbitx.com",
   primaryPhone: {
     label: "+92 325 1888841",
     href: "tel:+923251888841",
@@ -45,34 +45,34 @@ export const WORDBITX = {
       title: "Ecommerce Website Development",
       description:
         "Custom storefronts engineered around merchandising, speed and checkout completion.",
-      href: "https://www.wordbitxtech.com/",
+      href: "https://wordbitx.com",
     },
     {
       title: "Custom Web Development",
       description: "Design systems, headless architecture and content platforms built to scale.",
-      href: "https://www.wordbitxtech.com/",
+      href: "https://wordbitx.com",
     },
     {
       title: "Mobile App Development",
       description: "Native and cross-platform commerce apps that share one product API.",
-      href: "https://www.wordbitxtech.com/",
+      href: "https://wordbitx.com",
     },
     {
       title: "AI Ecommerce Solutions",
       description:
         "Shopping concierges, recommendation engines and merchandising intelligence.",
-      href: "https://www.wordbitxtech.com/",
+      href: "https://wordbitx.com",
     },
     {
       title: "UI/UX Design",
       description: "Editorial art direction paired with conversion-focused interaction design.",
-      href: "https://www.wordbitxtech.com/",
+      href: "https://wordbitx.com",
     },
     {
       title: "SEO & Digital Marketing",
       description:
         "Technical SEO, structured data, topical content architecture and performance work.",
-      href: "https://www.wordbitxtech.com/",
+      href: "https://wordbitx.com",
     },
   ],
   regions: [

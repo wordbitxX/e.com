@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   description: BRAND.shortStory,
   applicationName: BRAND.name,
-  authors: [{ name: "WordbitX", url: "https://www.wordbitxtech.com/" }],
+  authors: [{ name: "WordbitX", url: "https://wordbitx.com" }],
   creator: "WordbitX",
   publisher: BRAND.legalName,
   formatDetection: { telephone: false },
