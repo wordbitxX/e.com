@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { BRAND, WORDBITX } from "./brand";
 
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://veranne.studio").replace(
+// Canonicals, og:url, Twitter cards and sitemap entries all resolve against this
+// origin, so it must be this demo's own live URL — never the WordbitX agency site.
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://ecom.wordbitx.pk").replace(
   /\/$/,
   "",
 );
@@ -95,7 +97,7 @@ export function organizationJsonLd() {
     brand: { "@type": "Brand", name: BRAND.name },
     creator: {
       "@type": "Organization",
-      "@id": `${WORDBITX.url}#organization`,
+      "@id": `${WORDBITX.url}/#organization`,
       name: WORDBITX.name,
       url: WORDBITX.url,
       description: WORDBITX.pitch,
@@ -124,7 +126,7 @@ export function wordbitxJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": `${WORDBITX.url}#organization`,
+    "@id": `${WORDBITX.url}/#organization`,
     name: WORDBITX.name,
     url: WORDBITX.url,
     description: WORDBITX.pitch,
